@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: "https://github.com/votre-user/HelloWorldApp.git" 
     targetRevision: HEAD 
-    path: . t
+    path: . 
   destination:
     server: "https://kubernetes.default.svc"  
     namespace: default  
